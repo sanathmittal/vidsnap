@@ -102,27 +102,22 @@ To get your ElevenLabs API key:
 ```
 vidsnap/
 │
-├── app.py                 # Main Flask application
-├── requirements.txt       # Python dependencies
-├── .env                  # Environment variables
-├── .gitignore           # Git ignore file
+├── __pycache__/           # Python cache files
+├── sample_images/         # Sample images for testing
+├── static/               # Static files (CSS, JS, images)
+├── templates/            # HTML templates
+├── user_uploads/         # User uploaded images
 │
-├── templates/           # HTML templates
-│   ├── index.html       # Main page
-│   └── result.html      # Results page
-│
-├── static/             # Static files
-│   ├── css/           # Custom CSS files
-│   ├── js/            # Custom JavaScript files
-│   ├── videos/        # Generated videos
-│   └── audio/         # Generated audio files
-│
-├── uploads/           # User uploaded images
-├── temp/             # Temporary files
-└── utils/            # Utility functions
-    ├── text_to_speech.py
-    ├── video_generator.py
-    └── file_handler.py
+├── README.md             # Project documentation
+├── config.py             # Configuration settings
+├── done.txt              # Process completion indicator
+├── ffmpeg_command.txt    # FFmpeg command reference
+├── generate_process.py   # Video generation logic
+├── main.py               # Main Flask application
+├── reel.mp4              # Sample output video
+├── sample_input_ffmpeg.txt # Sample FFmpeg input
+├── template.zip          # Template files
+└── text_to_audio.py      # Text-to-speech conversion
 ```
 
 ## Usage 🎯
