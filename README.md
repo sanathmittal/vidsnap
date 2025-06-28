@@ -10,9 +10,6 @@ VidSnap is an AI-powered video reel generator that transforms your text and phot
 - **User-Friendly Interface**: Clean and responsive web interface built with Bootstrap
 - **Flask Backend**: Robust Python backend for handling all processing tasks
 
-## Demo 🎥
-
-[Add a demo GIF or link to your video here]
 
 ## Prerequisites 📋
 
@@ -27,7 +24,7 @@ Before you begin, ensure you have the following installed on your system:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/vidsnap.git
+git clone https://github.com/sanathmittal/vidsnap.git
 cd vidsnap
 ```
 
@@ -228,6 +225,6 @@ ffmpeg -version
 
 ---
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by [sanath mittal]**
 
 *Star ⭐ this repository if you find it helpful!*
